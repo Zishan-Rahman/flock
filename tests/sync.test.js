@@ -5,5 +5,8 @@ import {handleBlockCreateEvent} from "../blocks.js"
 export function runSynchronisationTests() {
     describe("block synchronisation tests", function () {
 		this.timeout(5000);
+        describe("Retrieves mesh from block", function () {
+            let mockBlock, mockMesh, mockMeshMap;
+        });
     });
 }
